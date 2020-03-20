@@ -8,7 +8,8 @@ ram_usage=list()
 max_ram=psutil.virtual_memory()[0]
 max_cpu=100
 
-howlong=int(input("Per quanto tempo puoi monitorare? Inserisci il tempo in secondi: "))
+#howlong=int(input("Per quanto tempo puoi monitorare? Inserisci il tempo in secondi: "))
+howlong=int(input("How long do you want to monitor for? Specify the time in seconds: "))
 timepassed=0
 
 while(True):
